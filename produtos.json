@@ -1,0 +1,45 @@
+{
+    "produtos": [
+      {
+        "imagem": "Molas de Tração.webp",
+        "titulo": "Molas de Tração",
+        "texto": "Força e Versatilidade em Aplicações Industriais. Com ganchos nas extremidades, garantem o retorno seguro de componentes. Ideais para máquinas de exercícios e robôs industriais."
+      },
+      {
+        "imagem": "mola-caracol-de-fita.png",
+        "titulo": "Molas Caracol",
+        "texto": "Descubra a versatilidade das Molas Espirais na Indústria. Essas fitas de aço enroladas em espiral contribuem para diversas aplicações, oferecendo amortecimento, resistência e impulso conforme necessário."
+      },
+      {
+        "imagem": "pino-de-engate.png",
+        "titulo": "Pinos de Engate",
+        "texto": "O Componente Essencial para o Funcionamento Ideal da Vara de Manobra Telescópica. Nosso pino de engate é projetado para garantir a segurança e o desempenho eficiente da vara de manobra telescópica e em outros componentes."
+      },
+      {
+        "imagem": "Molas de Torção.png",
+        "titulo": "Molas de Torção",
+        "texto": "Potência em Torque para Aplicações Essenciais. Presentes em máquinas industriais, impressoras e além, estas molas aplicam momentos de força cruciais."
+      },
+      {
+        "imagem": "anel.png",
+        "titulo": "Anéis de trava",
+        "texto": "Fixação Segura e Universal para Diversas Aplicações. Com sua funcionalidade eficaz na transferência de cargas axiais, é amplamente utilizado em diferentes setores. Disponível em diversos modelos e tamanhos, cada um projetado para atender necessidades específicas."
+      },
+      {
+        "imagem": "grampo-tipo-r.png",
+        "titulo": "Grampos de Trava Tipo R",
+        "texto": "Segurança e Fixação Confiável em Equipamentos Mecânicos. Nosso grampo tipo R de aço é um componente essencial para travamento e fixação, garantindo segurança e estabilidade em parafusos, porcas, eixos e outras peças. Conte com a qualidade e confiabilidade do nosso grampo para suas aplicações mecânicas."
+      },
+      {
+        "imagem": "Molas de Compressão.png",
+        "titulo": "Molas de Torção",
+        "texto": "Eficiência e Resistência para Diversas Aplicações. Presentes em fechaduras, amortecedores de carros e muito mais, essas molas garantem retorno confiável a cada pressão."
+      },
+      {
+        "imagem": "projeto.png",
+        "titulo": "Seu Projeto Personalizado",
+        "texto": " Transformamos suas ideias em realidade. Aceitamos projetos sob medida de molas, pinos de travamento, anéis de travamento e muito mais. Utilizando a matéria-prima de sua escolha, fabricamos produtos de alta qualidade que atendem às suas especificações exatas. Deixe-nos ajudar a concretizar suas visões industriais. Entre em contato conosco hoje mesmo para começar."
+      }
+    ]
+  }
+  

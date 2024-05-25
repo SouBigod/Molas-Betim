@@ -1,0 +1,1099 @@
+header nav {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  background-color: #176B87;
+  flex-wrap: nowrap;
+
+}
+
+html {
+  overflow-x: hidden;
+
+}
+
+.dropdown {
+  display: none;
+}
+
+
+.header__menu {
+  display: flex;
+  padding: 1em;
+  list-style-type: none;
+  margin: 1em;
+}
+
+.header__menu__item a {
+
+  cursor: pointer;
+  text-decoration: none;
+  color: #EEF5FF;
+  margin: 1em;
+}
+
+.header__menu__item:hover a {
+  color: #B4D4FF;
+  font-size: 1.01em;
+}
+
+.navbar-brand {
+  margin: 1em;
+}
+
+body {
+  background-color: #EEF5FF;
+}
+
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #176B87;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1.3em;
+}
+
+.card__imagem {
+  width: 100%;
+  /* Ajusta a largura da imagem para ocupar 100% do espaço disponível */
+  height: auto;
+  /* Permite que a altura seja ajustada automaticamente para manter a proporção */
+  margin-bottom: 20px;
+  transition: all 0.3s;
+  border-radius: 1em;
+}
+
+.card__imagem:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  border-radius: 1.4em;
+  cursor: pointer;
+}
+
+.card__titulo {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #86B6F6;
+}
+
+.card__subtexto {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #DCF2F1;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.quemsomos {
+  margin-top: 2em;
+  background-color: #176B87;
+  width: 100%;
+
+}
+
+.quemsomos__container {
+  display: flex;
+  align-items: center;
+  background-color: #176B87;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  padding: 3em;
+  flex-wrap: wrap;
+}
+
+
+
+.quemsomos__part1 {
+  margin-left: 2em;
+  max-width: 50em;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.quemsomos__part1 .quemsomos__part2 {
+  text-align: center;
+  align-items: center;
+
+}
+
+.quemsomos__part1 h4 {
+  color: #86B6F6;
+  font-weight: 400;
+  font-size: 3em;
+
+
+}
+
+.quemsomos__part1 p {
+  color: #DCF2F1;
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 3em;
+  text-align: justify;
+}
+
+.quemsomos__part2 img {
+
+  transition: transform 0.5s;
+  animation: flutuar 3s ease-in-out infinite;
+  margin-bottom: 1em;
+
+
+}
+
+.quemsomos__part2 img:hover {
+  animation: flutuar 1131ms ease-in-out infinite alternate;
+  transform: rotateY(50deg);
+  cursor: pointer;
+
+
+}
+
+.quemsomos__btn {
+  padding: 1em;
+  font-size: 1.5em;
+  background-color: #86B6F6;
+  border-radius: 1.5em;
+  cursor: pointer;
+  color: #DCF2F1 !important;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.quemsomos__btn {
+  padding: 1em;
+  font-size: 1.5em;
+  background-color: #86B6F6;
+  border-radius: 1.5em;
+  cursor: pointer;
+  color: #DCF2F1 !important;
+  transition: background-color 0.3s, transform 0.3s;
+  /* Adicionamos uma transição suave para a mudança de cor de fundo e a transformação */
+}
+
+.quemsomos__btn:hover {
+  background-color: #6f9ed9;
+  /* Mudamos a cor de fundo ao passar o mouse sobre o botão */
+  transform: scale(1.05);
+  /* Aumentamos ligeiramente o tamanho do botão */
+}
+
+
+
+@keyframes flutuar {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+.orc {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+
+}
+
+.orc .orc__titulo {
+  font-size: 2em;
+  color: #176B87;
+  font-weight: 600;
+}
+
+.orc .orc__telas {
+  margin-top: 2em;
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  justify-content: space-around;
+}
+
+.orc__tela1 {
+  margin-left: 2em;
+  width: 100%;
+
+
+}
+
+.form-label {
+  color: #176B87 !important;
+}
+
+.form-text {
+  color: #6f9ed9;
+  font-size: 0.7em;
+  line-height: 1.5;
+}
+
+
+.orc_titulooutros {
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  color: #176B87;
+  font-size: 1.4em;
+  padding: 0 1.5em;
+
+}
+
+.orc_titulooutros span {
+  color: #6f9ed9;
+
+}
+
+.orc__outrosorc {
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.orc__whats {
+  margin-top: 1em;
+}
+
+.orc__whats,
+.orc__telefone,
+.orc__email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.6em;
+  padding-left: 30%;
+}
+
+.orc__whats img,
+.orc__telefone img,
+.orc__email img {
+  width: 50px;
+}
+
+.orc__tell,
+.orc__num,
+.orc__emailic {
+  text-decoration: none;
+  color: #000 !important;
+  margin-left: 1em;
+  text-align: center;
+}
+
+.orc__maps {
+  width: 100%;
+}
+
+
+.orc__maps iframe {
+  width: 100%;
+  padding: 2em;
+  filter: hue-rotate(180deg) saturate(150%) invert(90%);
+  border-radius: 1em;
+  border: 2px solid #176B87;
+}
+
+.footer {
+
+  position: relative;
+  width: 100%;
+  background: #176B87;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.chatpopup-widget__trigger{
+  background-color: #00c853;
+  color: #ffffff;
+}
+
+
+
+.chatpopup-widget-close,
+    .chatpopup-widget__body-header,
+    .chatpopup-welcome-msg {
+      background-color: #176B87;
+      color: #ffffff;
+    }
+
+    .chatpopup-widget {
+      right: 12px;
+      align-items: flex-end;
+    }
+
+    .chatpopup-widget-close {
+      right: 0;
+    }
+
+    .chatpopup_jwi {
+      right: 12px;
+    }
+
+    .chatpopup-welcome-msg {
+      border: 1px solid #ccc;
+      color: #999;
+      background: #fff;
+      line-height: 1em;
+      padding: 8px 15px 5px 10px;
+      position: relative;
+    }
+
+    .chatpopup-welcome-msg:before {
+      content: "\1F4AC";
+      display: inline;
+      top: 0;
+      position: relative;
+      font-size: 1.1em;
+      margin-right: 5px;
+    }
+
+    .chatpopup-welcome-msg:after {
+      content: "|";
+      position: absolute;
+      left: 32px;
+      top: 6px;
+      animation: cursor 2.5s infinite;
+    }
+
+    @keyframes cursor {
+      0% {
+        opacity: 1;
+      }
+
+      25% {
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      75% {
+        opacity: 0;
+      }
+    }
+
+
+@keyframes blink {
+
+  from,
+  to {
+      color: transparent
+  }
+
+  50% {
+      color: black
+  }
+}
+
+@-moz-keyframes blink {
+
+  from,
+  to {
+      color: transparent
+  }
+
+  50% {
+      color: black
+  }
+}
+
+@-webkit-keyframes blink {
+
+  from,
+  to {
+      color: transparent
+  }
+
+  50% {
+      color: black
+  }
+}
+
+@-ms-keyframes blink {
+
+  from,
+  to {
+      color: transparent
+  }
+
+  50% {
+      color: black
+  }
+}
+
+@-o-keyframes blink {
+
+  from,
+  to {
+      color: transparent
+  }
+
+  50% {
+      color: black
+  }
+}
+
+.chatpopup-widget * {
+  box-sizing: border-box
+}
+
+.chatpopup-widget {
+  position: fixed;
+  bottom: 12px;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column
+}
+
+.chatpopup-widget__body {
+  margin-bottom: 10px;
+  min-width: 300px;
+  max-width: 340px;
+  display: none;
+  margin-left: 12px
+}
+
+.chatpopup-widget__body-header {
+  padding: 15px;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  position: relative
+}
+
+.chatpopup-widget-close {
+  position: absolute;
+  top: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none
+}
+
+.chatpopup-support-persons {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+  max-height: 370px;
+  overflow-y: auto;
+  min-height: 20px
+}
+
+.chatpopup-support-person {
+  display: flex;
+  margin-bottom: 15px;
+  border: 1px solid #F5F5F5;
+  cursor: pointer
+}
+
+.chatpopup-support-person__img {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+  position: relative
+}
+
+.chatpopup-support-person__img img {
+  width: 100%;
+  border-radius: 0
+}
+
+.chatpopup-support-person__status {
+  background-color: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0
+}
+
+.chatpopup-support-person__status--avail {
+  background-color: #00c853
+}
+
+.chatpopup-support-person__status--not-avail {
+  background-color: #ffd600
+}
+
+.chatpopup-support-person__meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.chatpopup-support-person__name,
+.chatpopup-support-person__title {
+  line-height: 20px
+}
+
+.chatpopup-support-person__name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #706F6F
+}
+
+.chatpopup-support-person__title {
+  color: #706F6F
+}
+
+.chatpopup-welcome-msg {
+  padding: 5px 15px;
+  border-radius: 0 0 4px 4px
+}
+
+.chatpopup-custom-offer {
+  margin: 10px 0
+}
+
+.chatpopup-custom-offer img {
+  width: 100%
+}
+
+.chatpopup-widget__trigger {
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  display: inline-block;
+  user-select: none;
+  display: flex;
+  align-items: center
+}
+
+.chatpopup-gdpr {
+  font-size: 14px;
+  border: 1px solid transparent;
+  padding-left: 15px;
+  background-color: #fff
+}
+
+.chatpopup-gdpr.error {
+  border: 1px solid red
+}
+
+a.chatpopup-whatsapp-button {
+  padding: 6px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  margin-right: 5px !important;
+  border-radius: 2px !important;
+  cursor: pointer !important;
+  font-size: 15px !important;
+  outline: none !important;
+  display: inline-block !important
+}
+
+.chatpopup-blinking-cursor {
+  font-weight: 100;
+  font-size: 15px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite
+}
+
+.chatpopup-input-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background: #fff;
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 4px 4px;
+  border-top: 1px solid #ccc
+}
+
+.chatpopup-input-wrapper input {
+  flex: 1;
+  height: 40px;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important
+}
+
+.chatpopup-input-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  cursor: pointer;
+  margin: 0 10px
+}
+
+.chatpopup-input-icon svg {
+  width: 100%;
+  height: auto
+}
+
+.chatpopup_jwi {
+  display: inline-block;
+  position: fixed;
+  bottom: 12px;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, .1));
+  outline: none;
+  z-index: 99999
+}
+
+.chatpopup-icon-close svg {
+  width: 14px
+}
+
+.chatpopup-icon-whatsapp {
+  line-height: 0 !important;
+  margin-right: 5px
+}
+
+.chatpopup-icon-whatsapp svg {
+  width: 16px
+}
+
+
+/* Estilos para tablets e dispositivos médios */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+  header nav {
+    display: flex;
+    justify-content: space-a;
+    background-color: #176B87;
+    flex-wrap: nowrap !important;
+
+  }
+
+  .navbar-brand img {
+    max-width: 95%;
+    min-width: 90%;
+    margin-left: 1em;
+  }
+
+
+  .header__menu {
+    padding: 1em;
+    margin: 1em;
+  }
+
+  .header__menu__item a {
+    margin-left: 1em;
+    white-space: nowrap;
+  }
+
+
+  .card {
+    min-width: 30%;
+    margin: 1em;
+  }
+
+  .card__titulo {
+    font-size: 1em;
+    margin-bottom: 8px;
+  }
+
+  .card__subtexto {
+    font-size: 10px;
+    line-height: 2em;
+    margin-bottom: 10px;
+
+  }
+
+
+
+  .quemsomos__part1 {
+    margin-left: 2em;
+    max-width: 30em;
+
+
+  }
+
+
+
+
+  .quemsomos__part1 p {
+    font-size: 0.9em;
+    line-height: 1.8;
+    margin-bottom: 3em;
+    text-align: justify;
+  }
+
+  .quemsomos__part2 img {
+
+    max-width: 37em;
+    min-width: 19em;
+    transition: transform 0.5s;
+    animation: flutuar 3s ease-in-out infinite;
+    margin-bottom: 1em;
+
+
+  }
+
+  .quemsomos__part2 img:hover {
+    width: 200em;
+    animation: flutuar 1s ease-in-out infinite alternate;
+    transform: rotateY(50deg);
+    cursor: pointer;
+
+
+  }
+
+  .quemsomos__btn {
+    padding: 1em;
+    font-size: 1.3em;
+
+  }
+
+
+  .orc_titulooutros {
+    font-size: 1.2em;
+
+  }
+
+  .orc_titulooutros span {
+    color: #6f9ed9;
+  }
+
+  .orc__outrosorc {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+
+  .orc__whats,
+  .orc__telefone,
+  .orc__email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.4em;
+    padding-left: 20%;
+  }
+
+  .orc__whats img,
+  .orc__telefone img,
+  .orc__email img {
+    width: 40px;
+  }
+
+  .orc__tell,
+  .orc__num,
+  .orc__emailic {
+    text-decoration: none;
+    color: #000 !important;
+    margin-left: 1em;
+    text-align: center;
+  }
+
+
+
+
+
+  /* Adicione estilos específicos para tablets aqui */
+}
+
+/* Estilos para dispositivos pequenos (smartphones) */
+@media only screen and (max-width: 767px) {
+
+
+  header nav {
+
+    flex-direction: row;
+  }
+
+  .btnbanner{
+    display: none;
+  }
+
+  .dropdown {
+    display: block;
+    margin-right: 2em;
+    background-color: #176B87;
+  }
+
+  .navbar {
+    flex-wrap: nowrap;
+  }
+
+  .navbar-brand {
+    margin-top: 0.4em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+
+
+  }
+
+  .dropdown-menu,
+  .dropdown .btn {
+    background-color: #176B87;
+    border: none;
+
+  }
+
+
+  .dropdown-menu.show {
+    right: -1px;
+  }
+
+  .dropdown-item {
+    color: #DCF2F1;
+    font-size: 0.6em;
+  }
+
+  .navbar-brand img {
+    width: 50%;
+    align-items: center;
+    display: block;
+
+  }
+
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu__item a {
+    margin-top: 1em;
+    margin-left: 1em;
+    white-space: nowrap;
+  }
+
+
+  .card {
+    min-width: 50%;
+    margin: 1em;
+  }
+
+  .card__titulo {
+    font-size: 1em;
+    margin-bottom: 8px;
+  }
+
+  .card__subtexto {
+    font-size: 10px;
+    line-height: 2em;
+    margin-bottom: 10px;
+
+  }
+
+  .quemsomos__container {
+    width: 100%;
+  }
+
+  .quemsomos__part1 {
+    margin-left: 2em;
+    max-width: 30em;
+
+
+  }
+
+
+  .quemsomos__part1 p {
+    font-size: 0.8em;
+    line-height: 1.8;
+    margin-bottom: 3em;
+    text-align: justify;
+  }
+
+  .quemsomos__part2 img {
+    align-items: center;
+    width: 30em;
+    margin-bottom: 1em;
+
+
+  }
+
+  
+
+
+
+  .quemsomos__btn {
+    padding: 1em;
+    font-size: 1.3em;
+
+
+
+  }
+
+  .orc .orc__telas {
+    padding: 0;
+  }
+
+  .orc__tela1 {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding: 1em;
+
+  }
+
+  .orc__telas {
+    flex-direction: column;
+  }
+
+  .orc_titulooutros {
+    font-size: 1em;
+    margin-top: 2em;
+    color: #176B87;
+    white-space: wrap;
+
+  }
+
+  .orc_titulooutros span {
+    color: #6f9ed9;
+  }
+
+  .orc__outrosorc {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100%;
+    padding: 0 1em;
+    margin-bottom: 1em;
+  }
+
+
+  .orc__whats,
+  .orc__telefone,
+  .orc__email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.4em;
+    padding-left: 10%;
+    
+  }
+
+  .orc__whats img,
+  .orc__telefone img,
+  .orc__email img {
+    width: 30px;
+  }
+
+  .orc__tell,
+  .orc__num,
+  .orc__emailic {
+    text-decoration: none;
+    color: #176B87 !important;
+    margin-left: 1em;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .orc__maps iframe {
+    width: 100%;
+    padding: 0.1em;
+    }
+
+    .textowhats{
+      display: none;
+    }
+
+
+}
